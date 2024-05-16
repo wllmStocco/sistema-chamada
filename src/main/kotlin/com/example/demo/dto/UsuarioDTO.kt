@@ -33,5 +33,8 @@ data class UsuarioDTO(
         val numero: Int,
 
         @field:NotBlank(message = "Responsável legal do usuário não pode estar em branco")
-        val responsavelLegal: String
+        val responsavelLegal: String,
+
+        @field:NotBlank(message = "QR Code não pode estar em branco")
+        val qrCode: String? = null
 )

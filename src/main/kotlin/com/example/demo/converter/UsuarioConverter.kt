@@ -17,7 +17,8 @@ class UsuarioConverter {
                 foto = dto.foto,
                 endereco = dto.endereco,
                 numero = dto.numero,
-                responsavelLegal = dto.responsavelLegal
+                responsavelLegal = dto.responsavelLegal,
+                qrCode = dto.qrCode
         )
     }
     fun toUsuarioResponseDTO(usuario: Usuario): UsuarioResponseDTO {
@@ -30,7 +31,8 @@ class UsuarioConverter {
                 foto = usuario.foto,
                 endereco = usuario.endereco,
                 numero= usuario.numero,
-                responsavelLegal= usuario.responsavelLegal
+                responsavelLegal= usuario.responsavelLegal,
+                qrCode = usuario.qrCode
         )
     }
 }

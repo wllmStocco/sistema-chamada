@@ -11,5 +11,6 @@ data class UsuarioResponseDTO (
         val foto: String,
         val endereco: String,
         val numero: Int,
-        val responsavelLegal: String
+        val responsavelLegal: String,
+        var qrCode: String? = null
 )

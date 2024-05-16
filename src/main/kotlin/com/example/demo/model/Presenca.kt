@@ -6,5 +6,5 @@ data class Presenca(
         val id: Int,
         val data: Date,
         val alunoId: Int,
-        val turmaId: Int
+        val turmaId: Int,
 )
